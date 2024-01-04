@@ -1,5 +1,5 @@
 import AppName from "./Components/AppName";
-import AddTodo from "./Components/";
+import AddTodo from "./Components/AddTodo";
 import TodoItems from "./Components/TodoItems";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";

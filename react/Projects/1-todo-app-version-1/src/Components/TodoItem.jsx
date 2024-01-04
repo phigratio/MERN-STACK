@@ -1,6 +1,6 @@
 function TodoItem({ todoName, todoDate }) {
   return (
-    <div className="container items-container">
+    <div className="container">
       <div className="row muqtu-row">
         <div className="col-sm-6">{todoName}</div>
         <div className="col-sm-4">{todoDate}</div>

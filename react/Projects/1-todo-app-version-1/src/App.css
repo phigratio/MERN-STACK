@@ -3,6 +3,9 @@ input{
   width: 100%;
 }
 
+.items-container{
+  text-align: left;
+}
 
 .muqtu-Button{
   min-width: 80px;
