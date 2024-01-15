@@ -1,12 +1,15 @@
 .muqtu-item{
-  background-color: khaki;
+  /* background-color: khaki; */
+  margin-bottom: 16px;
 }
 
 .muqtu-span{
   font-weight: 500;
+  font-size: 16px;
 }
 
 .button{
   float: right;
   justify-content: right;
+  font-size: 16px;
 }

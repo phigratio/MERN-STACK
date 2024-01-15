@@ -1,30 +1,33 @@
 import styles from "./ButtonsContainer.module.css";
 
-const ButtonNames = [
-  "C",
-  "1",
-  "2",
-  "+",
-  "3",
-  "4",
-  "-",
-  "5",
-  "6",
-  "*",
-  "7",
-  "8",
-  "/",
-  "=",
-  "9",
-  "0",
-  ".",
-];
-
-const ButtonsContainer = () => {
+const ButtonsContainer = ({ onButtonClick }) => {
+  const ButtonNames = [
+    "C",
+    "1",
+    "2",
+    "+",
+    "3",
+    "4",
+    "-",
+    "5",
+    "6",
+    "*",
+    "7",
+    "8",
+    "/",
+    "=",
+    "9",
+    "0",
+    ".",
+  ];
   return (
-    <div id="buttons-container" className={styles.buttonsContainer}>
+    <div className={styles.buttonsContainer}>
       {ButtonNames.map((buttonName) => (
-        <button key="" className={styles.button}>
+        <button
+          key={buttonName}
+          className={styles.button}
+          onClick={() => onButtonClick(buttonName)}
+        >
           {buttonName}
         </button>
       ))}
