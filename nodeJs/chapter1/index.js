@@ -15,5 +15,6 @@ import { sum, diff } from "./lib.js";
 // const lib = require("./lib.js");
 import express from "express";
 const server = express();
-server.listen(8080);
+server.listen(3000);
+console.log("hello world");
 console.log(sum(4, 5), diff(3, 6));

@@ -26,3 +26,4 @@ Modules are a fundamental concept that allows you to organize and structure your
 ->We can use performance.now() to check diff between async and sync nature 
 
 
+We can use npm init to form package.json
