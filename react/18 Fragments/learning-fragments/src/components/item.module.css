@@ -1,0 +1,12 @@
+.muqtu-item{
+  background-color: khaki;
+}
+
+.muqtu-span{
+  font-weight: 500;
+}
+
+.button{
+  float: right;
+  justify-content: right;
+}

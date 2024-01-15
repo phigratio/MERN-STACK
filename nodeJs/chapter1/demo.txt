@@ -1,0 +1,16 @@
+Core Modules: These are built-in modules that come with Node.js and provide essential functionalities. Some examples include:
+
+fs (File System): For working with the file system.
+http and https: For creating HTTP and HTTPS servers.
+path: For working with file and directory paths.
+os: Provides information about the operating system.
+Core modules are included with Node.js by default, so you can use them without installing anything extra.
+
+Third-Party Modules: These are modules created by the community and can be easily installed using npm (Node Package Manager). Examples include:
+
+express: A web application framework.
+mongoose: An object modeling tool for MongoDB.
+axios: A promise-based HTTP client.
+You can install third-party modules using the npm install command.
+
+Custom Modules: These are modules you create for your own application. You can break down your application into smaller, manageable pieces and use modules to encapsulate the functionality. You can create custom modules by defining functions, variables, or objects in separate files and then exporting them for use in other parts of your application.
