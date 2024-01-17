@@ -1,17 +1,11 @@
-
-input{
+input {
   width: 100%;
 }
 
-.items-container{
-  text-align: left;
-}
-
-.muqtu-Button{
+.kg-button {
   min-width: 80px;
 }
 
-.muqtu-row{
-  margin:10px 5px;
+.kg-row {
+  margin: 10px 5px;
 }
-
