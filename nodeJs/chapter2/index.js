@@ -1,7 +1,14 @@
 const http = require("http");
+
 const server = http.createServer((req, res) => {
-  console.log("server started");
-  res.setHeader("Dummy", "DummyValue");
-  res.end("<h1>Hello</h1>");
+  console.log("Server started");
+  res.setHeader("Content-Type", "text/html");
+  res.write("<h1>Hello</h1>");
+  res.end();
 });
-server.listen(3000);
+
+const PORT = 3000;
+
+server.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
