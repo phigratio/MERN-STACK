@@ -8,7 +8,9 @@ import PostList from "./components/PostList";
 import { useState } from "react";
 function App() {
   const [selectedTab, setSelectedTab] = useState("Home");
-
+  // const handleOnClick = (tabName) => {
+  //   setSelectedTab(tabName);
+  // };
   return (
     <>
       <div className="app-container">
